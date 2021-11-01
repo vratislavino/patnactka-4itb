@@ -15,6 +15,22 @@ namespace Hra_15
         public event Action<Segment> PositionChangeRequested;
 
         int cislo;
+
+        public int Cislo {
+            get {
+                return cislo;
+            }
+        }
+        public int IndexX {
+            get {
+                return this.Location.X / this.Width;
+            }
+        }
+        public int IndexY {
+            get {
+                return this.Location.Y / this.Height;
+            }
+        }
         public Segment(int a):this() {
             cislo = a;
             label1.Text = cislo.ToString();

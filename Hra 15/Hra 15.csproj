@@ -52,6 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hra.Designer.cs">
+      <DependentUpon>Hra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisak.Designer.cs">
+      <DependentUpon>Lisak.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Segment.cs">
